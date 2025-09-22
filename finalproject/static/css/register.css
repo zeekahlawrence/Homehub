@@ -1,0 +1,30 @@
+body{
+    background-color: #00073f;
+    color: white;
+}
+
+.container{
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.btn{
+    margin-top: 20px;
+    background-color: #00073f;
+}
+
+.l1 {
+  text-decoration: none;   /* remove underline */
+  color: white;             /* set link color */
+  margin-left: 5px;       /* space between links */
+  font-weight: bold;       /* make bold */
+  margin-top: 30px;
+}
+
+.l1:hover {
+  background-color: lightgray;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
