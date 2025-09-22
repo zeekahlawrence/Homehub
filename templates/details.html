@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1> Agents contacts</h1>
+        <h2> Call the following agent below to acquire a house</h2>
+
+        {% for con in contact%}
+        <h3> {{con.name}}</h3>
+        <h3> {{con.email}}</h3>
+        <h3> {{con.number}}</h3>
+        <h3> {{con.location}}</h3>
+    
+        {%endfor%}
+
+    </div>
+</body>
+</html>
